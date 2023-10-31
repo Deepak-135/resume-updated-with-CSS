@@ -1,0 +1,129 @@
+.style{
+    background-color: royalblue;
+    margin-inline-start: 15%;
+    margin-inline-end: 15%;
+    border-radius: 2rem;
+    border: 1px solid azure;
+    min-height: 50rem;
+    min-width: 41.67rem;
+}
+header{
+    background-color: #171B26;
+    margin: 1%;
+    min-height: 5rem;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    color: #F2C879;
+    text-align: justify;
+}
+main{
+    background-color: #171B26;
+    margin: 0% 1% 1% 1%;
+    min-height: 5rem;
+    border-radius: 0rem 0rem 1.5rem 0rem;
+    min-width: 25rem;
+    width: 60%;
+    float: right;
+}
+aside{
+    background-color: #171B26;
+    margin: 0% 1%;
+    /* margin-top: 2%; */
+    min-height: 5rem;
+    border-radius: 0rem 0rem 0rem 0rem;
+    margin-inline-end: 62%;
+    color: azure;
+}
+footer{
+    /* clear: right; */
+    background-color: #171B26;
+    margin: calc(-1%) 1% 1% 1%;
+    /* min-height: 2rem; */
+    padding: 5% 1% 6.9% 1%;
+    border-radius: 0rem 0rem 0rem 1.5rem;
+    margin-inline-end: 62%;
+    position: relative;
+}
+img{
+    width: 15%;
+    margin: 1%;
+    border-radius: 1rem;
+    /* display: inline-block; */
+    float: left;
+}
+header > div{
+    padding-top: 5%;
+    color: #0798F2;
+}
+header p{
+    margin: 1%;
+}
+header h1{
+    margin-bottom: 1%;
+    color: #F2C879;
+}
+header>p{
+    padding-bottom: 1%;
+}
+h2{
+    color: #F2C879;
+    padding-left: 2%;
+}
+h3{
+    color: #F2C879;
+    margin:  4% 1% 0% 1%;    
+}
+main > div > ul > li > p{
+    font-style: italic;
+    font-size: small;
+    color: #0798F2;
+    margin: 0% 1% 2% 1%;
+}
+main > div > ul{
+    list-style-type: none;
+}
+main li{
+    color: azure;
+    margin: 1%;
+}
+main li div{
+    color: #D9C49C;
+}
+aside h2{
+    margin: 0%;
+    padding: 3% 1% 1% 3%;
+}
+aside ul{
+    list-style-type: none;
+    padding-bottom: 3%; 
+
+}
+aside li{
+    background-color: #1C3659;
+    display: inline-block;
+    padding: 1.5% 4%;
+    border-radius: 2rem;
+    margin-left: calc(-3%);
+    margin-right: 3%;
+    margin: 1% 3% 1% calc(-3%);
+    max-width: 70%;
+}
+footer div{
+    width: 90%;
+    padding: 3%;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+}
+footer nav{
+    background-color: #1C3659;
+    display: inline-block;
+    width: 35%; 
+    margin-right: 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+footer a{
+    padding: 10%;
+    width: fit-content;
+    color: #D9C49C;  
+}
